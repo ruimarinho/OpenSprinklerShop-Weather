@@ -74,5 +74,5 @@ export interface ZimmermanWateringData extends BaseWateringData {
     raining: boolean;
 }
 
-export type WeatherProviderId = "OWM" | "DarkSky" | "Apple" | "local" | "mock" | "WUnderground" | "DWD" | "OpenMeteo";
-export type WeatherProviderShortId = "OWM" | "DS" | "Apple" | "local" | "mock" | "WU" | "DWD" | "OM";
+export type WeatherProviderId = "OWM" | "DarkSky" | "Apple" | "local" | "mock" | "WUnderground" | "DWD" | "OpenMeteo" | "IPMA";
+export type WeatherProviderShortId = "OWM" | "DS" | "Apple" | "local" | "mock" | "WU" | "DWD" | "OM" | "IPMA";
